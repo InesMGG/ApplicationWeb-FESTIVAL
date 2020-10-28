@@ -1,0 +1,132 @@
+/* FEUILLE DE STYLES POUR TOUS LES STYLES DE L'APPLICATION 
+(Remarque : à plusieurs reprises, l'attribut color:black est précisé bien qu'il 
+ne soit pas utile ; ceci permet une validation du W3C sans avertissement. 
+Idem pour background-color) */
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:400px;
+  overflow:scroll;
+  }
+
+a{
+   color: #000000;
+}
+
+.intro
+{
+   font-size: 25px;
+}
+
+
+/* Style pour le texte de 2ème niveau du titre */
+.texteNiveau2
+{
+   font: 30px Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+.navbar
+{
+   overflow: hidden;
+   background-color: #009879;
+   position: fixed; 
+   top: 0; 
+   width: 100%; 
+}
+
+.navbar a 
+{
+  float: left;
+  display: block;
+  color: #ffffff;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover 
+{
+  background: #ffffff;
+  color: #009879;
+}
+
+.main 
+{
+  margin-top: 30px;
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color:#009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.reserveSiLien
+{
+   background-color:#009879;
+   color:black;
+}
+
+
+.reserve
+{
+   background-color:#025444;
+   color:black;
+}
+
+.button
+{
+  border-style: none;
+  border-color: white;
+}
+
+.msgErreur
+{
+   background-color:#FFFFFF;
+   color:#FF00CC;
+   font-size:14px;
+}
+
+/* STYLES POUR LES ATTRIBUTIONS */
+
+/* Fond blanc */
+
+/* Style Footer*/
+.Bas
+{
+   background-color:#009879;
+   bottom: 0;
+   position: fixed;
+   text-align: center;
+   width: 100%; 
+}
+.fx
+{
+   font:15px Arial, Helvetica, sans-serif;
+   color: #FFFFFF;
+}
