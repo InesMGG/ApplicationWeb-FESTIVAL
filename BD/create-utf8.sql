@@ -1,4 +1,3 @@
-
 GRANT ALL ON festival . * TO 'festival'@'localhost' IDENTIFIED BY 'secret';
 
 DROP DATABASE IF EXISTS Festival;
